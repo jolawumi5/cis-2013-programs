@@ -30,7 +30,7 @@ if (intGradeOption===1)
     }
 }
 else
-
+    }
     if( floatTotalPts >=90)
     {
         stringFinalGrade= "A";
@@ -44,23 +44,11 @@ else
     
    else
 {
-    if( floatTotalPts >=80)
-    {
-        stringFinalGrade= "B";
-    }
-    else
-    {
     if(floatTotalPts >=70 && floatTotalPts <80)
     {
         stringFinalGrade= "C";
     }
 else
-    {
-     if( floatTotalPts >=70)
-    {
-        stringFinalGrade= "C";
-    }
-    else
     {
     if(floatTotalPts >=60 && floatTotalPts <70)
     {
@@ -74,5 +62,5 @@ else
     }
     }
     }
-    }
+    
 alert ("Your final grade is: " +stringFinalGrade);
