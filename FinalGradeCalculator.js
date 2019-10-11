@@ -30,7 +30,7 @@ if (intGradeOption===1)
     }
 }
 else
-    }
+    {
     if( floatTotalPts >=90)
     {
         stringFinalGrade= "A";
