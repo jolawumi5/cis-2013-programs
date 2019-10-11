@@ -14,11 +14,11 @@ floatMidPts = parseFloat(prompt("Please enter final Midterm exam points (0-35)")
 
 floatFinPts = parseFloat(prompt(" Please enter Final exam points(0-35)"));
 
-floatTotalPts = parseFloat("floatHwPts+floatMidPts+floatFinPts");
+floatTotalPts = parseFloat(floatHwPts+floatMidPts+floatFinPts);
 
 intGradeOption = parseInt(prompt("Enter "\1\" for audit pass/fail or enter "\2\" for a letter grade")); 
 
-if (intGradeOption===1)
+if (intGradeOption === 1)
 {
     if(floatTotalPts >=80)
     {
