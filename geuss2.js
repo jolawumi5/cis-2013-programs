@@ -29,12 +29,12 @@ intRandom = parseInt(Math.floor(Math.random()*(intMax-intMin+1))+intMin);
 intCount = 1;
 while (intGuess!= intRandom) {
     if (intGuess < intRandom) {
-       alert(“Your number geuss of “ + (intGuess) + “was too low”);
+       alert("Your number geuss of " + (intGuess) + "was too low");
 
 	}
             else
         {
-            alert(“Your choice of “ + (intGuess) + “was too high”);
+            alert("Your choice of " + (intGuess) + "was too high");
         }
 
                intCount++;
